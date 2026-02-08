@@ -211,10 +211,154 @@ input {
   margin-bottom: 32px;
 }
 
+.quality-cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.quality-card {
+  max-width: 100%;
+}
 .qlt-photo-wrapper {
   overflow: hidden;
+  margin-bottom: 32px;
 }
 .qlt-photo {
   max-width: 288px;
   border-radius: 32px;
+}
+.quality-card-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #0b0803;
+  margin-bottom: 8px;
+}
+.quality-card-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #0b0803;
+}
+
+.experience {
+  padding: 64px 0;
+}
+
+.experience-title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #0b0803;
+
+  max-width: 288px;
+  margin-bottom: 24px;
+}
+.experience-content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #0b0803;
+
+  margin-bottom: 32px;
+}
+.exp-photo-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.exp-photo-wrapper {
+  overflow: hidden;
+}
+.experience-photo {
+  max-width: 100%;
+  border-radius: 32px;
+}
+
+.subscribe {
+  padding: 64px 0;
+}
+.subscribe-title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #0b0803;
+
+  margin-bottom: 24px;
+}
+.subscribe-content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #0b0803;
+
+  margin-bottom: 32px;
+}
+.subscribe-wrapper {
+  margin-bottom: 32px;
+}
+.subscribe-input {
+  border: 1px solid rgba(11, 8, 3, 0.15);
+  border-radius: 12px;
+  padding: 8px 12px;
+  width: 288px;
+  height: 40px;
+  background-color: transparent;
+
+  margin-bottom: 24px;
+}
+
+.subscribe-input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(11, 8, 3, 0.6);
+}
+.subscribe-btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 288px;
+  height: 44px;
+  border-radius: 100px;
+  padding: 10px 89px;
+  box-shadow:
+    0 1px 2px 0 rgba(11, 8, 3, 0.05),
+    inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2),
+    inset 0 0 0 1px rgba(11, 8, 3, 0.15),
+    inset 0 2px 1px 0 rgba(255, 255, 255, 0.25),
+    inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
+  background: #6f4e37;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.subscribe-icon {
+  fill: #fff;
+}
+.subscribe-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #0b0803;
+}
+
+.subscribe-photo-wrapper {
+  overflow: hidden;
+}
+.subscribe-photo {
+  max-width: 100%;
+  border-radius: 40px;
 }
