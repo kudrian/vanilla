@@ -362,3 +362,34 @@ input {
   max-width: 100%;
   border-radius: 40px;
 }
+
+.testimonials {
+  padding: 64px 0;
+}
+
+.testimonials-title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #0b0803;
+
+  max-width: 288px;
+}
+.testimonials-content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #0b0803;
+
+  max-width: 224px;
+  margin-bottom: 24px;
+}
+.testimonials-person-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0b0803;
+
+  max-width: 224px;
+}
